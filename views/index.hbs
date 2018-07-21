@@ -1,0 +1,10 @@
+{{#if err}}
+    <p>Error occurred: {{err}}</p>
+{{/if}}
+{{#if org.Name }}
+  <p>Successfully connected to {{org.Name}}</p>
+{{else}}
+  <a href="connect">
+    <img src="images/connect_xero_button_blue_2x.png">
+  </a>
+{{/if}}
