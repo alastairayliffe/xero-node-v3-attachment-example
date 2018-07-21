@@ -10,8 +10,8 @@ let hbs = exphbs.create({
 
 const config = {
     "appType": "public",
-    "consumerKey": "TBAHMJTTTOYLTRMGNQSNNPRXD6YFEZ",
-    "consumerSecret": "11K5FZXD2P2YJL6YMUK7CDAIOQ55AP",
+    "consumerKey": "consumerKey...",
+    "consumerSecret": "consumerSecret...",
     "callbackUrl": "http://localhost:3000/callback"
 }
 
