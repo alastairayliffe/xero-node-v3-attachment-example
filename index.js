@@ -40,7 +40,6 @@ app.get('/connect', (req, res) => {
 
 //Set up the callback
 app.get('/callback', (req, res) => {
-    debugger;
     let xero = new XeroClient(config);
     const oauth_verifier = req.query.oauth_verifier;
     const savedRequestToken = {
